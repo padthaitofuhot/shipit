@@ -27,4 +27,4 @@ run:
   capabilities: --cap-add NET_ADMIN
   ports: "-p 0.0.0.0:80:80/tcp -p 0.0.0.0:80:80/udp"
   volumes: "-v /opt/project/somefile:/etc/somefile"
-  logging: --log-driver=syslog
+  logging: --log-driver=syslog --log-opt tag=project
