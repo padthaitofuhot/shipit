@@ -1,0 +1,29 @@
+name: project name
+home: /opt/project
+subdirs: subdir1 nested/subdir1 nested/subdir2
+conf: project.conf
+
+conf:
+# Sane configuration defaults go here.
+# Anything in this section can be overridden by conf.yml!
+  key: value
+  port: 80
+
+build:
+  alpine_version: 3.3
+  alpine_mirror: http://dl-cdn.alpinelinux.org/alpine
+  packages: apkpackage1 apkpackage2
+  expose: 80 80/udp [etc]
+  entrypoint: /usr/sbin/mainbinary
+  cmd: --some-option
+
+run:
+# Sane docker run defaults go here.
+# Anything in this section can be overridden by run.yml!
+  console: -it
+  persist: -d/--rm
+  net: --net=host
+  capabilities: --cap-add NET_ADMIN
+  ports: "-p 0.0.0.0:80:80/tcp -p 0.0.0.0:80:80/udp"
+  volumes: "-v /opt/project/somefile:/etc/somefile"
+  logging: --log-driver=syslog

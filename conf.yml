@@ -1,0 +1,16 @@
+# Configuration overrides
+#
+# You can override anything you see in the "conf:" tree in box/box.yml here!
+# Additionally, there are a few properties you can set here that do not have
+# defaults in box.yml that you may find useful.
+#
+# APK REPOS
+# Uncomment to use your favorite APK mirror
+# Only add the URL pointing the mirror root, everything else is added automatically!
+# For example, if you set the following:
+# alpine_mirror: http://192.168.1.2/alpine
+# it will resolve to:
+# http://192.168.1.2/alpine/v3.3/{main,community}
+# -AND-
+# http://192.168.1.2/alpine/edge/{main,community,testing}
+#
