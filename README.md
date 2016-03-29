@@ -20,7 +20,7 @@
 * You have a single Docker host that needs to run a bunch of different services, for example:
     * Your lab's Swiss-Army-box
     * Your home media server
-    * Your crappy website nobody reads
+    * Your webserver that became an anything-goes-dev-playground because nobody reads your crappy blog anyway
 * You were a hipster before it was cool
 
 #### *DO NOT* use Shipit if:
