@@ -23,6 +23,7 @@ run:
   console: -it
   persist: -d/--rm
   net: --net=host
+  restart: --restart=always
   capabilities: --cap-add NET_ADMIN
   ports: "-p 0.0.0.0:80:80/tcp -p 0.0.0.0:80:80/udp"
   volumes: "-v /opt/project/somefile:/etc/somefile"
