@@ -6,8 +6,8 @@
 
 #### Shipit is *good* at:
 * [dnsmasq-in-a-box](https://github.com/padthaitofuhot/dnsmasq-in-a-box)
-* [openntpd-in-a-box](https://github.com/padthaitofuhot/dnsmasq-in-a-box)
-* [unbound-in-a-box](https://github.com/padthaitofuhot/dnsmasq-in-a-box)
+* [openntpd-in-a-box](https://github.com/padthaitofuhot/openntpd-in-a-box)
+* [unbound-in-a-box](https://github.com/padthaitofuhot/unbound-in-a-box)
 * ...and other things that help me get my home lab back up and working whenever I lose a disk or otherwise accidentally the whole fucking thing.
 
 #### Shipit is *bad* at:
